@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.pearacle.systemmodeling.service.AlgorithmsServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-04-06T19:50:10.388Z" hostname="MacBook-Pro-Denis.local" time="0.5">
+  <properties/>
+  <testcase name="deleteNloStrategy_shouldDelegateToPythonClient()" classname="ru.pearacle.systemmodeling.service.AlgorithmsServiceTest" time="0.48"/>
+  <testcase name="deleteDominatedStrategies_shouldReturnEmptyList_whenNoDomination()" classname="ru.pearacle.systemmodeling.service.AlgorithmsServiceTest" time="0.008"/>
+  <testcase name="deleteDominatedStrategies_shouldReturnDominatedStrategies_whenStrictDominationByRows()" classname="ru.pearacle.systemmodeling.service.AlgorithmsServiceTest" time="0.005"/>
+  <testcase name="deleteDominatedStrategies_shouldReturnDominatedStrategies_whenWeakDominationByColumns()" classname="ru.pearacle.systemmodeling.service.AlgorithmsServiceTest" time="0.002"/>
+  <testcase name="findNashCleanStrategy_shouldDelegateToPythonClient()" classname="ru.pearacle.systemmodeling.service.AlgorithmsServiceTest" time="0.003"/>
+  <system-out><![CDATA[22:50:10.871 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Начинаем поиск доминированных стратегий. Проверяем по строкам (первый игрок). Тип доминирования: строгое.
+22:50:10.873 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Сравниваем стратегию 0 с стратегией 1.
+22:50:10.874 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- На позиции 1 стратегия 1 не лучше стратегии 0 (1 < 2). Переходим к следующей паре.
+22:50:10.874 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Сравниваем стратегию 1 с стратегией 0.
+22:50:10.874 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- На позиции 0 стратегия 0 не лучше стратегии 1 (1 < 2). Переходим к следующей паре.
+22:50:10.874 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Поиск завершён. Найдено 0 доминированных стратегий.
+22:50:10.879 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Начинаем поиск доминированных стратегий. Проверяем по строкам (первый игрок). Тип доминирования: строгое.
+22:50:10.879 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Сравниваем стратегию 0 с стратегией 1.
+22:50:10.879 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- На позиции 0 стратегия 1 не лучше стратегии 0 (1 < 3). Переходим к следующей паре.
+22:50:10.879 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Сравниваем стратегию 1 с стратегией 0.
+22:50:10.879 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Стратегия 1 доминируется стратегией 0.
+22:50:10.880 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Поиск завершён. Найдено 1 доминированных стратегий.
+22:50:10.885 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Начинаем поиск доминированных стратегий. Проверяем по столбцам (второй игрок). Тип доминирования: слабое.
+22:50:10.885 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Сравниваем стратегию 0 с стратегией 1.
+22:50:10.885 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Стратегия 0 доминируется стратегией 1.
+22:50:10.885 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Сравниваем стратегию 1 с стратегией 0.
+22:50:10.885 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Стратегия 1 доминируется стратегией 0.
+22:50:10.885 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Поиск завершён. Найдено 2 доминированных стратегий.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

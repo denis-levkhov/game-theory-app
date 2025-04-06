@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - AlgorithmsServiceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>AlgorithmsServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/ru.pearacle.systemmodeling.service.html">ru.pearacle.systemmodeling.service</a> &gt; AlgorithmsServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.498s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Tests</a>
+</li>
+<li>
+<a href="#">Standard output</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">deleteDominatedStrategies_shouldReturnDominatedStrategies_whenStrictDominationByRows()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteDominatedStrategies_shouldReturnDominatedStrategies_whenWeakDominationByColumns()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteDominatedStrategies_shouldReturnEmptyList_whenNoDomination()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteNloStrategy_shouldDelegateToPythonClient()</td>
+<td class="success">0.480s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findNashCleanStrategy_shouldDelegateToPythonClient()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>22:50:10.871 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Начинаем поиск доминированных стратегий. Проверяем по строкам (первый игрок). Тип доминирования: строгое.
+22:50:10.873 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Сравниваем стратегию 0 с стратегией 1.
+22:50:10.874 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- На позиции 1 стратегия 1 не лучше стратегии 0 (1 &lt; 2). Переходим к следующей паре.
+22:50:10.874 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Сравниваем стратегию 1 с стратегией 0.
+22:50:10.874 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- На позиции 0 стратегия 0 не лучше стратегии 1 (1 &lt; 2). Переходим к следующей паре.
+22:50:10.874 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Поиск завершён. Найдено 0 доминированных стратегий.
+22:50:10.879 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Начинаем поиск доминированных стратегий. Проверяем по строкам (первый игрок). Тип доминирования: строгое.
+22:50:10.879 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Сравниваем стратегию 0 с стратегией 1.
+22:50:10.879 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- На позиции 0 стратегия 1 не лучше стратегии 0 (1 &lt; 3). Переходим к следующей паре.
+22:50:10.879 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Сравниваем стратегию 1 с стратегией 0.
+22:50:10.879 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Стратегия 1 доминируется стратегией 0.
+22:50:10.880 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Поиск завершён. Найдено 1 доминированных стратегий.
+22:50:10.885 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Начинаем поиск доминированных стратегий. Проверяем по столбцам (второй игрок). Тип доминирования: слабое.
+22:50:10.885 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Сравниваем стратегию 0 с стратегией 1.
+22:50:10.885 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Стратегия 0 доминируется стратегией 1.
+22:50:10.885 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Сравниваем стратегию 1 с стратегией 0.
+22:50:10.885 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Стратегия 1 доминируется стратегией 0.
+22:50:10.885 [Test worker] INFO ru.pearacle.systemmodeling.service.AlgorithmsService -- Поиск завершён. Найдено 2 доминированных стратегий.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 8.13</a> at 6 апр. 2025 г., 22:50:10</p>
+</div>
+</div>
+</body>
+</html>
